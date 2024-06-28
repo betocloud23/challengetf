@@ -25,7 +25,7 @@ variable "tenant_id" {
 }
 variable "client_id" {
 
-  sensitive = true
+
 }
 
 variable "vnetcidr" {
