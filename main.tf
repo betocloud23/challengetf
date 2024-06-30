@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+#### TEMPORALMENTE COMENTADO ####
+
+
+>>>>>>> main
 # module "app3" {
 
 #   source = "./APP3"
