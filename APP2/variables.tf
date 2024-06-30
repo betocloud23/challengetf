@@ -25,7 +25,10 @@ variable "tenant_id" {
 }
 variable "client_id" {
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> main
 }
 
 variable "vnetcidr" {
