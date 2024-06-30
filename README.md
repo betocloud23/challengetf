@@ -6,15 +6,11 @@ Los módulos principales incluyen la creación de un rg, una vnet, subredes, una
 # Consideraciones
 Para la implementación y ejecución de este módulo se está utilizando el método de conexión mediante Service Principal
 Para establecer una conexión segura y gestión de identidades de Github action e Azure, se debe habilitar Federated credentials para el Service Principal
-<<<<<<< HEAD
-=======
-
->>>>>>> main
 Declarar un nuevo prefix en el archivo .tfvars para que los recursos tengan nombre unicos.
 
 ## Workflow de GitHub Actions
 El flujo de trabajo se ejecuta automáticamente cuando se realiza un pull request desde la rama `aplicacion #` a la rama `main`.
-test
+
 
 ## Estructura del Proyecto.
 ```plaintext
