@@ -26,7 +26,6 @@ variable "tenant_id" {
 variable "client_id" {
 
 <<<<<<< HEAD
-  sensitive = true
 =======
 
 >>>>>>> main
