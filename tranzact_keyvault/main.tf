@@ -1,4 +1,4 @@
-resource "azurerm_key_vault" "app3vault3" {
+resource "azurerm_key_vault" "app3vault" {
   name                     = "${var.prefix}-keyvault"
   resource_group_name      = var.resource_group_name
   location                 = var.location
