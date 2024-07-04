@@ -1,5 +1,5 @@
 resource "azurerm_storage_account" "app3stga" {
-  name                     = "${var.prefix}-sa"
+  name                     = "${var.prefix}sa99"
   resource_group_name      = var.resource_group_name
   location                 = var.location
   account_tier             = var.account_tier
