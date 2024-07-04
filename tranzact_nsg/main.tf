@@ -6,7 +6,7 @@ resource "azurerm_network_security_group" "app3nsg" {
     Owner = var.Owner
   }
   security_rule {
-    name                       = "AllowSSH"
+    name                       = "AllowHTTPS"
     priority                   = 1001
     direction                  = "Inbound"
     access                     = "Allow"

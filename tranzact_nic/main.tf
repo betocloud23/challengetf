@@ -1,4 +1,4 @@
-resource "azurerm_network_interface" "app3main" {
+resource "azurerm_network_interface" "app3nic" {
   name                = "${var.prefix}-nic"
   location            = var.location
   resource_group_name = var.resource_group_name
