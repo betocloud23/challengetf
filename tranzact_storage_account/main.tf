@@ -15,8 +15,8 @@ resource "azurerm_storage_account" "app3stga" {
     Owner = var.Owner
   }
 }
-resource "azurerm_storage_container" "app3cont" {
-  name                  = "container01"
-  storage_account_name  = azurerm_storage_account.app3stga.name
-  container_access_type = "private"
-}
+# resource "azurerm_storage_container" "app3cont" {
+#   name                  = "container01"
+#   storage_account_name  = azurerm_storage_account.app3stga.name
+#   container_access_type = "private"
+# }
